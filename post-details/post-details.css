@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background: #F5F6F8;
+}
+
+.header {
+    width: 100vw;
+    height: 40px;
+    background: #30BDDB;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.post-wrapper {
+    width: 90vw;
+    margin: 25px auto;
+    padding: 32px 16px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+.title-style {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #52A5B7;
+}
+
+.body-style {
+    font-size: 18px;
+    font-weight: 600;
+    color: #929292;
+}
+
+.comments-wrapper {
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4, 20vw);
+    row-gap: 5vh;
+}
+
+.comment-style {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.10);
+    padding: 15px;
+}
+
+.id-style {
+    font-size: 15px;
+    font-weight: 600;
+    color: #929292;
+}
+
+.name-style {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #52A5B7;
+}
+
+.email-style {
+    font-size: 16px;
+    font-weight: 600;
+    color: #252525;
+    margin-bottom: 10px;
+}
+
+.body-comment-style {
+    font-size: 16px;
+    font-weight: 800;
+    color: #252525;
+}

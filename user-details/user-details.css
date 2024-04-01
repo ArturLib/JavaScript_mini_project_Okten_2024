@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background: #F5F6F8;
+}
+
+.header {
+    width: 100vw;
+    height: 40px;
+    background: #30BDDB;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info {
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.id-style {
+    font-size: 16px;
+    font-weight: 400;
+    color: #929292;
+    text-align: center;
+}
+
+.name-style {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+    color: #252525;
+}
+
+.userName-style {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: #252525;
+}
+
+.email-style {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    color: #30BDDB;
+}
+
+.info-style {
+    width: 90vw;
+    padding-top: 56px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.10);
+    margin-bottom: 24px;
+}
+
+.address-style, .geo-style, .contacts-div {
+    font-size: 16px;
+    font-weight: 600;
+    color: #252525;
+}
+
+.button-current-post {
+    width: 90vw;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(257deg, #30BDDB 29.15%, #52A5B7 84.77%);
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.post-wrapper {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.post-title {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 16vw;
+    height: 70px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.10);
+    padding: 10px 8px;
+    margin-bottom: 10px;
+}
+
+.post-button {
+    width: 10vw;
+    font-size: 10px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: linear-gradient(257deg, #30BDDB 29.15%, #52A5B7 84.77%);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}

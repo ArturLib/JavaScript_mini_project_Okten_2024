@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background: #F5F6F8;
+}
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 100vw;
+    height: 40px;
+    background: #30BDDB;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.user-class {
+    width: 44vw;
+    height: 167px;
+    padding: 32px 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.10);
+    margin-bottom: 26px;
+}
+
+.id-class {
+    font-size: 16px;
+    color: #718399;
+    font-weight: 400;
+}
+
+.name-class {
+    color: #252525;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button {
+    width: 16vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: linear-gradient(257deg, #30BDDB 29.15%, #52A5B7 84.77%);
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
